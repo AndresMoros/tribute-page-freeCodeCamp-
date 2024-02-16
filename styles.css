@@ -1,0 +1,98 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: #E4E4E4;
+  font-family: 'Verdana', sans-serif;
+  color: #4e4e4e
+}
+
+header {
+  background-color: #FFF;
+  margin: 10px 0;
+  padding: 60px 0 80px;
+}
+
+header h1 {
+  font-size: 3.4em;
+}
+
+header p {
+  font-size: 1.4em;
+}
+
+h1, p {
+  text-align: center;
+  margin: 0;
+}
+
+#main {
+  margin: 10px;
+  padding: 1px;
+}
+
+#img-div {
+  /*border: 1px solid black;*/
+  display: block;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: #fff;
+  width: 100%;
+  min-width: 300px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width:100%;
+  height: auto;
+  width: 800px;
+  object-fit: cover;
+}
+
+article {
+  width: 70%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section {
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2.2em;
+  margin: 0;
+}
+
+section p {
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 5px;
+}
+
+li span {
+  font-weight: bold;
+}
+
+.rolling-stone {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.source {
+  display: block;
+  margin: 10px auto;
+  color: black;
+}
